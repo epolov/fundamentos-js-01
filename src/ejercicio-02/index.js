@@ -75,7 +75,7 @@ switch (dia1) {
 
 // 5 - DECLARAR VARIABLE TEMPERATURA CELSIUS
 
-const temperatura = 15
+const temperatura = 25
 
 // FUNCION DE CONVERSIÓN DE TEMPERATURA
 
