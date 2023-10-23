@@ -75,4 +75,14 @@ switch (dia1) {
 
 // 5 - DECLARAR VARIABLE TEMPERATURA CELSIUS
 
-const temperatura = "15ºC"
+const temperatura = 15
+
+// FUNCION
+
+function convertirFahrenheit(celsius) {
+    return (celsius * 9) / 5 + 32
+}
+
+// 6 - CONVERTIR FUNCION PARA QUE TOME LA TEMPERATURA 
+const temperaturaFahrenheit = convertirFahrenheit(temperatura)
+console.log('La temperatura en Fahrenheit es: ' + temperaturaFahrenheit)
