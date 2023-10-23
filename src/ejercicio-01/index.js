@@ -24,3 +24,6 @@ const suma = num1 + num2 // Suma
 const resta = num1 - num2 // Resta
 const multiplica = num1 * num2 // multiplica
 const divide = num1 / num2
+
+// 8 cadena frase
+const frase = 'Hola, mi nombre es ' + nombre + 'y tengo ' + edad + 'años. Soy estudiante ' + esEstudiante
