@@ -77,7 +77,7 @@ switch (dia1) {
 
 const temperatura = 15
 
-// FUNCION
+// FUNCION DE CONVERSIÓN DE TEMPERATURA
 
 function convertirFahrenheit(celsius) {
     return (celsius * 9) / 5 + 32
@@ -85,4 +85,6 @@ function convertirFahrenheit(celsius) {
 
 // 6 - CONVERTIR FUNCION PARA QUE TOME LA TEMPERATURA 
 const temperaturaFahrenheit = convertirFahrenheit(temperatura)
+
+// 7 -  MOSTRAR EN CONSOLA LA CONVERSION DE LA TEMPERATURA REALIZADA EN LA FUNCION
 console.log('La temperatura en Fahrenheit es: ' + temperaturaFahrenheit)
